@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/mycss.css">
+  <title>Inventory Management</title>
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body class="body">
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Prasad Digitals Dashboard</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- content -->
+  <div class="container">
+    <br><br>
+    <p>
+      <a style="text-decoration:none;" data-bs-toggle="collapse" href="#addProduct" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Add Product
+      </a>
+    </p>
+    <div class="collapse" id="addProduct">
+      <div class="card card-body">
+        <table class="table">
+          <tr>
+            <td>Enter Product Name</td>
+            <td><input type="text" class="form-control" name="" value=""> </td>
+          </tr>
+          <tr>
+            <td>Enter Category</td>
+            <td><input type="text" class="form-control" name="" value=""></td>
+          </tr>
+          <tr>
+            <td>Enter Quantity</td>
+            <td><input type="text" class="form-control" name="" value=""></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button type="button" class="btn btn-success" name="button">Add Product</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+      <p>
+        <a style="text-decoration:none;" data-bs-toggle="collapse" href="#updateProduct" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Update Product
+        </a>
+      </p>
+      <div class="collapse" id="updateProduct">
+        <div class="card card-body">
+          <table class="table">
+            <tr>
+              <td>Select Product</td>
+              <td><input type="text" class="form-control" name="" value=""> </td>
+            </tr>
+            <tr>
+              <td>Update Quality</td>
+              <td><input type="text" class="form-control" name="" value=""> </td>
+            </tr>
+            <tr>
+              <td colspan="2"><button type="button" class="btn btn-success" name="button">Update Product</button> </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    <!-- product table -->
+    <table class="table table-striped">
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>P001</td>
+        <td>Cyan Tonner</td>
+        <td>Matte</td>
+        <td>Quantity</td>
+      </tr>
+      <tr>
+        <td>P002</td>
+        <td>Magenata Tonner</td>
+        <td>Matte</td>
+        <td>Quantity</td>
+      </tr>
+      <tr>
+        <td>P003</td>
+        <td>Yellow Tonner</td>
+        <td>Matte</td>
+        <td>Quantity</td>
+      </tr>
+    </table>
+
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
